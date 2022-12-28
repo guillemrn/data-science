@@ -1,15 +1,6 @@
 import utils
-
-data = [
-  {
-    "Country": "Mexico",
-    "Population": 50000
-  },
-  {
-    "Country": "Bolivia",
-    "Population": 50000
-  }
-]
+import read_csv
+import charts
 
 def run():
   keys, values = utils.get_population()
